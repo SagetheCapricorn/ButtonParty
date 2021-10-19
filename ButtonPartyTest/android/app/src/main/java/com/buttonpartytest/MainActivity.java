@@ -12,4 +12,5 @@ public class MainActivity extends ReactActivity {
   protected String getMainComponentName() {
     return "ButtonPartyTest";
   }
+  FirebaseMessaging.getInstance().getToken()
 }
